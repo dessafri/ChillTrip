@@ -1,0 +1,90 @@
+/* DEKSTOP VERSION */
+
+body {
+    height: max-content;
+}
+
+.judul {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 30px !important;
+    top: 50px;
+}
+
+img .logo {
+    transform: rotate(152deg);
+}
+
+.nav-link {
+    font-size: 14px;
+    margin-right: 71px;
+    ;
+}
+
+.jumbotron {
+    background-color: white !important;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.display-4 {
+    font-family: 'Georgia', sans-serif;
+    font-size: 50px !important;
+    font-weight: bold !important;
+}
+
+.lead {
+    margin-top: 81px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px !important;
+    margin-bottom: 100px;
+}
+
+.review {
+    position: relative;
+    left: 100px;
+    padding: -150px;
+    transition-delay: 8s;
+    transition: 1s;
+    opacity: 0;
+}
+
+.produk {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 200px;
+    right: 200px;
+}
+
+.tombol {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border-radius: 40px !important;
+    left: 130px;
+    bottom: -30px;
+}
+
+
+/* animasi */
+
+.produk {
+    opacity: 0;
+    transition: 4s;
+    right: -50px;
+}
+
+.produk.produkMuncul {
+    opacity: 1;
+    right: 200px;
+}
+
+.reviewMuncul {
+    opacity: 1;
+    padding: 30px;
+}
